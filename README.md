@@ -12,7 +12,6 @@
 
 # 🏗️ Arquitetura do Projeto — Poké Arena Cards
 
-```bash
 ├── public/                # Arquivos estáticos (robots.txt, manifest, etc.)
 ├── src/
 │   ├── components/        # Componentes reutilizáveis
