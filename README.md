@@ -8,6 +8,8 @@
 
 ---
 
+![Poké Arena Cards Logo](./logo.png)
+
 # 1. 📌 Regras de Negócio
 
 ### RN01
