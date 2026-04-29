@@ -51,7 +51,7 @@ Poké-Arena-Cards/
 ├── package.json           # Dependências e scripts
 ├── tsconfig.json          # Configuração do TypeScript
 └── vite.config.ts         # Configuração do Vite
-
+```
 # 1. 📌 Regras de Negócio
 
 ### RN01
