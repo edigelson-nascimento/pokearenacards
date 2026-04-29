@@ -10,6 +10,47 @@
 
 ![Poké Arena Cards Logo](./logo.png)
 
+# 🏗️ Arquitetura do Projeto — Poké Arena Cards
+
+```bash
+├── public/                # Arquivos estáticos (robots.txt, manifest, etc.)
+├── src/
+│   ├── components/        # Componentes reutilizáveis
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── CategorySection.tsx
+│   │   ├── ProductCard.tsx
+│   │   ├── FeaturedProducts.tsx
+│   │   ├── Footer.tsx
+│   │   └── LoadingScreen.tsx
+│   │
+│   ├── img/               # Logos, banners, ícones e imagens
+│   │   ├── logo.png
+│   │   ├── hero-bg.jpg
+│   │   └── products/
+│   │
+│   ├── pages/             # Páginas principais
+│   │   ├── Home.tsx
+│   │   ├── ProductsPage.tsx
+│   │   ├── ProductDetails.tsx
+│   │   ├── CollectionsPage.tsx
+│   │   ├── RareCardsPage.tsx
+│   │   ├── ContactPage.tsx
+│   │   ├── PrivacyPolicy.tsx
+│   │   └── TermsOfService.tsx
+│   │
+│   ├── data/              # Mock de dados
+│   │   └── products.ts
+│   │
+│   ├── App.tsx            # Configuração de rotas e estrutura global
+│   ├── main.tsx           # Ponto de entrada da aplicação
+│   └── index.css          # Estilos globais e Tailwind
+│
+├── index.html             # Template HTML principal
+├── package.json           # Dependências e scripts
+├── tsconfig.json          # Configuração do TypeScript
+└── vite.config.ts         # Configuração do Vite
+
 # 1. 📌 Regras de Negócio
 
 ### RN01
